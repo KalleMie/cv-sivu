@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Oma Nimi – CV</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+      margin: 0;
+      background: #f8f9fa;
+      color: #333;
+    }
+    header {
+      background: #1e293b;
+      color: white;
+      padding: 2rem 1rem;
+      text-align: center;
+    }
+    header h1 { margin: 0; font-size: 2rem; }
+    header p { margin: 0.3rem 0; font-size: 1.1rem; }
+
+    main {
+      max-width: 900px;
+      margin: auto;
+      padding: 2rem 1rem;
+      display: grid;
+      gap: 2rem;
+    }
+    section h2 {
+      font-size: 1.4rem;
+      border-bottom: 2px solid #e2e8f0;
+      padding-bottom: 0.3rem;
+      margin-bottom: 1rem;
+    }
+    .card {
+      background: white;
+      padding: 1rem 1.5rem;
+      border-radius: 0.75rem;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+    }
+    ul { padding-left: 1.2rem; }
+    a { color: #2563eb; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
+    footer {
+      text-align: center;
+      padding: 1.5rem;
+      background: #f1f5f9;
+      font-size: 0.9rem;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Oma Nimi</h1>
+    <p>Ohjelmistokehittäjä | Helsinki, Suomi</p>
+    <p><a href="mailto:sinun.email@esimerkki.com" style="color:#93c5fd;">sinun.email@esimerkki.com</a> | <a href="https://linkedin.com/in/profiilisi" style="color:#93c5fd;">LinkedIn</a></p>
+  </header>
+
+  <main>
+    <section>
+      <h2>Työkokemus</h2>
+      <div class="card">
+        <h3>Ohjelmistokehittäjä – Yritys Oy</h3>
+        <p><em>2021 – nykyhetki</em></p>
+        <ul>
+          <li>Kehitin ja ylläpidin web-sovelluksia .NET-ympäristössä</li>
+          <li>Paransin suorituskykyä 30 % optimoimalla tietokantakyselyjä</li>
+        </ul>
+      </div>
+    </section>
+
+    <section>
+      <h2>Koulutus</h2>
+      <div class="card">
+        <h3>Tietojenkäsittelytieteen kand., Helsingin yliopisto</h3>
+        <p><em>2017 – 2020</em></p>
+      </div>
+    </section>
+
+    <section>
+      <h2>Taidot</h2>
+      <div class="card">
+        <ul>
+          <li>C#, .NET, ASP.NET</li>
+          <li>JavaScript, React</li>
+          <li>SQL, Azure</li>
+        </ul>
+      </div>
+    </section>
+
+    <section>
+      <h2>Projektit</h2>
+      <div class="card">
+        <h3><a href="https://github.com/kayttaja/projekti">Portfolio-sovellus</a></h3>
+        <p>Pieni web-sovellus, jossa käytetty Reactia ja ASP.NET API:a.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    © 2025 Oma Nimi
+  </footer>
+</body>
+</html>
